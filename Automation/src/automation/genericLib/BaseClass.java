@@ -39,7 +39,7 @@ public class BaseClass {
 	@AfterMethod(alwaysRun=true)
 	public void logout()
 	{
-		driver.findElement(By.id("logoutLink")).click();
+	
 	}
 	@AfterClass(alwaysRun=true)
 	public void closeBrowser()
